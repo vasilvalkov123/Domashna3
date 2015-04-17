@@ -96,7 +96,7 @@ public class MainActivity extends ActionBarActivity {
         //URL to get JSON Array
         private SwipeRefreshLayout mSwipeRefreshLayout = null;
 
-        private String url = "http://frm.hackafe.org/latest.json";
+        private String url = "";
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
